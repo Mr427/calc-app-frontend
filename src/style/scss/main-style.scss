@@ -4,10 +4,10 @@ body {
   }
   
   ol, ul {
-    padding-left: 30px;
+    list-style-type: none;
   }
   
-  .board-row:after {
+  .keypad-row:after {
     clear: both;
     content: "";
     display: table;
@@ -43,9 +43,5 @@ body {
   .game {
     display: flex;
     flex-direction: row;
-  }
-  
-  .game-info {
-    margin-left: 20px;
   }
   
